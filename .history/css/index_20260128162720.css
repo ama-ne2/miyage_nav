@@ -1,0 +1,4 @@
+input[type="radio"]{
+    border: 1px solid tomato;
+    background-color: tomato;
+}

@@ -1,0 +1,6 @@
+input[type="radio"]{
+    background-color: tomato;
+}
+input[type="radio"]:checked{
+    color: tomato;
+}
