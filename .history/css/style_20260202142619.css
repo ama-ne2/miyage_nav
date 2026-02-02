@@ -47,7 +47,6 @@ header{
 }
 main{
     overflow: scroll;
-    border: #000 solid 1px;
 }
 footer{
     position: fixed;

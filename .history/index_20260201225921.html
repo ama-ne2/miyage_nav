@@ -49,51 +49,29 @@
         </div>
     </header>
     <main>
-        <h2>目的地</h2><input type="text" value="駅名を入力">
-        <h2>関係性</h2>
-            <input type="radio" name="related" value="家族" id="family"> <label for="family">家族</label>
-            <input type="radio" name="related" value="友達" id="friend"> <label for="friend">友達</label>
-            <input type="radio" name="related" value="職場" id="office"> <label for="office">職場</label>
-        <h2>人数</h2> <input type="number" name="number">人
-        <h2>予算</h2>
-            <input type="range" name="range" id="range" min="0" max="10000">
-        <h2>味</h2>
-            <input type="radio" name="taste" value="甘い" id="sweet"> <label for="sweet">甘い</label>
-            <input type="radio" name="taste" value="塩気" id="salt"> <label for="salt">塩気</label>
-            <input type="radio" name="taste" value="バランス" id="balance"> <label for="balance">バランス</label>
-        <button type="submit">検索する</button>
+    <h2>目的地 </h2><input type="text" value="駅名を入力">
+    <h2>関係性</h2>
+        <input type="radio" name="related" value="家族" id="family"> <label for="family">家族</label>
+        <input type="radio" name="related" value="友達" id="friend"> <label for="friend">友達</label>
+        <input type="radio" name="related" value="職場" id="office"> <label for="office">職場</label>
+    <h2>人数</h2> 人
+    <h2>予算</h2>
+    <template>
+        <input type="range" min="0" max="100" value="50" class="slider">
+    </template>
+    <h2>味</h2>
+        <input type="radio" name="taste" value="甘い"> 甘い
+        <input type="radio" name="taste" value="塩気"> 塩気
+        <input type="radio" name="taste" value="バランス"> バランス
+    <button type="submit">検索する</button>
     </main>
     <footer>
-        <div class="footer_icon">
-            <span class="material-icons">
-            home
-            </span>
-            <p>ホーム</p>
-        </div>
-        <div class="footer_icon">
-            <span class="material-icons">
-            history
-            </span>
-            <p>検索履歴</p>
-        </div>
-        <div class="footer_icon">
-        <span class="material-icons">
-        shopping_bag
-        </span>
-            <p>マイ袋</p>
-        </div>
-        <div class="footer_icon">
-            <span class="material-icons">
-            favorite
-            </span>
-            <p>お気に入り</p>
-        </div>
-        <div class="footer_icon">
-            <span class="material-icons">
-            announcement
-            </span>
-            <p>お知らせ</p>
-        </div>
+    ホーム
+    検索履歴
+    マイ袋
+    お気に入り
+    お知らせ
+    <!-- <p><small>copyright &copy; 2026 ueda.</small></p> -->
     </footer>
 </div>
 </body>
