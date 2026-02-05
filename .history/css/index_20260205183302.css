@@ -1,34 +1,24 @@
-
-/* mainを真ん中に */
 main{
     display: flex;
     justify-content: center;
-    margin-top: 140px;
 }
 
-/* 目的地 */
 input[type="text"]{
-    background-color: #EEE;
+    border: #CCC 1px solid;
     width: 260px;
     height: 40px;
     border-radius: 10px;
-    font-size: 1.4rem;
-    padding-left: 85px;
+
 }
 
-/* ラジオボタンの丸を無くす */
 input[type="radio"]{
     background-color: tomato;
     display: none;
 }
-
-/* ラジオボタンの見た目 */
 input[type="radio"] + label{
     color: #333;
     border: solid 2px #E94619;
-    display: flex;
-    justify-content: center;
-    align-items: center;
+    padding: 1rem 3rem;
     border-radius: 10px;
     font-size: 1.6rem;
     width: 80px;
@@ -36,14 +26,11 @@ input[type="radio"] + label{
     /* font-weight: bold; */
     /* margin-left: 8px; */
 }
-
-/* ラジオボタンを押した時 */
 input[type="radio"]:checked + label{
     color: #fff;
     background-color: #E94619;
 }
 
-/* 人数 */
 input[type="number"]{
     border: #E94619 solid 2px;
     border-radius: 10px;
@@ -51,7 +38,6 @@ input[type="number"]{
     height: 30px;
 }
 
-/* レンジスライダー */
 input[type="range"]{
     /* -webkit-appearance: none; */
     width: 100px;
@@ -74,19 +60,11 @@ input[type="range"]::-webkit-slider-thumb{
     cursor: pointer;
 }
 
-/* キーワード囲ってるやつ */
 .keyword_wrap{
     display: flex;
-    align-items: center;
-    justify-content: start;
-    border: #333 solid 1px;
-    padding: 20px;
-    gap: 10px;
     
-
 }
 
-/* 検索するボタン */
 button[type="submit"]{
     width: 200px;
     height: 40px;
@@ -94,6 +72,5 @@ button[type="submit"]{
     color: #fff;
     font-size: 1.6rem;
     border-radius: 10px;
-    margin: 40px ;
+    margin-top: 40px;
 }
-

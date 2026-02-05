@@ -1,0 +1,18 @@
+input[type="radio"]{
+    background-color: tomato;
+    display: none;
+}
+input[type="radio"] + label{
+    color: #333;
+    border: solid 1px #E94619;
+    padding: 1rem;
+    border-radius: 10px;
+    font-size: 1.6rem;
+    /* margin-left: 8px; */
+
+}
+input[type="radio"]:checked + label{
+    color: tomato;
+    border: solid 1px tomato;
+    background-color: #E94619;
+}

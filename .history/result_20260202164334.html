@@ -6,7 +6,7 @@
     <meta name="color-scheme" content="light dark">
     <meta name="format-detection" content="telephone=no">
     <meta name="description" content="ここに説明文を設定">
-    <title>index</title>
+    <title>result</title>
 
     <!-- 共有用 OGP / X(Twitter) -->
     <meta property="og:site_name" content="サイト名">
@@ -31,7 +31,7 @@
 
     <link rel="stylesheet" href="css/ress.css">
     <link rel="stylesheet" href="css/style.css">
-    <link rel="stylesheet" href="css/index.css">
+    <link rel="stylesheet" href="css/result.css">
     <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
 
 </head>
@@ -39,7 +39,7 @@
 <div class="main_content">
     <header>
         <div class="header_wrap">
-            <h1  class="header_title">みやげナビ</h1>
+            <h1  class="header_title">検索結果</h1>
             <div class="header_icon_wrap">
             <span class="material-icons qr_mark">
                     qr_code_scanner
@@ -49,32 +49,18 @@
         </div>
     </header>
     <main>
-        <form action="result.html" method="get">
-        <h2>目的地</h2><input type="text" placeholder="駅名を入力">
-        <div class="keyword_wrap">
-            <h2>関係性</h2>
-                <input type="radio" name="related" value="家族" id="family"> <label for="family">家族</label>
-                <input type="radio" name="related" value="友達" id="friend"> <label for="friend">友達</label>
-                <input type="radio" name="related" value="職場" id="office"> <label for="office">職場</label>
+        <p>駅名</p>
+        <p>関係性 人数 予算 味</p>
+        <h2>イチオシ袋</h2>
+        <div class="result_item">
+            <h3>商品名</h3>
+            <p>00個入り</p>
+            <p>0000円</p>
         </div>
-        <div class="keyword_wrap">
-            <h2>人数</h2> <input type="number" name="number"><p>人</p>
-        </div>
-        <div class="keyword_wrap">
-            <h2>予算</h2>
-                <input type="range" name="range" id="range" min="0" max="10000">
-        </div>
-        <div class="keyword_wrap">
-            <h2>味</h2>
-                <input type="radio" name="taste" value="甘い" id="sweet"> <label for="sweet">甘い</label>
-                <input type="radio" name="taste" value="塩気" id="salt"> <label for="salt">塩気</label>
-                <input type="radio" name="taste" value="バランス" id="balance"> <label for="balance">バランス</label>
-        </div>
-        <button type="submit">検索する</button>
-    </form>
+        <p>計 0000 円</p>
     </main>
     <footer>
-        <div class="footer_icon active">
+        <div class="footer_icon">
             <span class="material-icons">
             home
             </span>
