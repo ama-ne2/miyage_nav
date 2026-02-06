@@ -6,16 +6,9 @@ main{
     margin-top: 140px;
 }
 
-.search_wrap{
-    border: #333 solid 1px;
-    display: flex;
-    justify-content: center;
+.seach_wrap{
+    border: #E94619 1px solid;
 }
-
-.search_wrap form{
-    width: 100%;
-}
-
 
 /* 目的地 */
 input[type="text"]{

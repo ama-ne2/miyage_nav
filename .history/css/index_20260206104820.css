@@ -4,18 +4,15 @@ main{
     display: flex;
     justify-content: center;
     margin-top: 140px;
+    width: 100%;
 }
 
 .search_wrap{
     border: #333 solid 1px;
     display: flex;
     justify-content: center;
+    align-items: center;
 }
-
-.search_wrap form{
-    width: 100%;
-}
-
 
 /* 目的地 */
 input[type="text"]{

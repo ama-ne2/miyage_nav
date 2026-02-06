@@ -4,18 +4,8 @@ main{
     display: flex;
     justify-content: center;
     margin-top: 140px;
+    overflow: scroll;
 }
-
-.search_wrap{
-    border: #333 solid 1px;
-    display: flex;
-    justify-content: center;
-}
-
-.search_wrap form{
-    width: 100%;
-}
-
 
 /* 目的地 */
 input[type="text"]{
@@ -36,7 +26,6 @@ input[type="radio"]{
 /* ラジオボタンの見た目 */
 input[type="radio"] + label{
     color: #333;
-    background-color: #fff;
     border: solid 2px #E94619;
     display: flex;
     justify-content: center;
@@ -58,7 +47,6 @@ input[type="radio"]:checked + label{
 /* 人数 */
 input[type="number"]{
     border: #E94619 solid 2px;
-    background-color: #fff;
     border-radius: 10px;
     width: 70px;
     height: 30px;
@@ -87,22 +75,15 @@ input[type="range"]::-webkit-slider-thumb{
     cursor: pointer;
 }
 
-/* キーワード全体 */
+/* キーワード囲ってるやつ */
 .keyword_wrap{
-    background-color: #EEE;
-    border-radius: 10px;
-    margin: 40px auto;
-}
-
-
-/* キーワードひとつずつ */
-.keyword{
-    /* border: #333 solid 1px; */
     display: flex;
     align-items: center;
     justify-content: start;
+    border: #333 solid 1px;
     padding: 20px;
     gap: 10px;
+    
 
 }
 
@@ -114,5 +95,6 @@ button[type="submit"]{
     color: #fff;
     font-size: 1.6rem;
     border-radius: 10px;
+    margin: 40px ;
 }
 

@@ -10,12 +10,9 @@ main{
     border: #333 solid 1px;
     display: flex;
     justify-content: center;
-}
-
-.search_wrap form{
+    align-items: center;
     width: 100%;
 }
-
 
 /* 目的地 */
 input[type="text"]{
