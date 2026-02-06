@@ -92,7 +92,7 @@ main {
             .keyword_cost{
                 display: flex;
                 align-items: end;
-                
+                ;
             }
             input[name="mincost"],
             input[name="maxcost"]{

@@ -1,0 +1,30 @@
+main {
+    margin-top: 100px;
+}
+
+.destination{
+    display: flex;
+    align-items: center;
+    background-color: #EEE;
+    border-radius: 10px;
+    width: 260px;
+    height: 40px;
+    gap: 10px;
+    margin: 40px auto;
+    p{
+        background-color: #E94619;
+        color: #fff;
+        width: 70px;
+        height: 30px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        border-radius: 10px;
+        font-size: 1.6rem;
+        font-weight: bold;
+    }
+    input{
+        height: 30px;
+        width: 800%;
+    }
+}
