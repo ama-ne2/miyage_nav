@@ -1,5 +1,6 @@
 main {
-    margin-top: 100px;
+    margin-top: 80px;
+    padding-bottom: 100px;
 }
 
 .destination{
@@ -38,13 +39,19 @@ main {
     width: 362px;
     height: 270px;
     margin: 0 20px;
-    padding: 30px;
+    padding: 30px 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
     .keyword{
         display: flex;
         align-items: center;
         justify-content: flex-start;
         margin-bottom: 30px;
         gap: 40px;
+        &:last-child{
+            margin: 0;
+        }
             h2{
                 font-size: 1.6rem;
                 width: 3em;
@@ -52,6 +59,7 @@ main {
             p{
                 font-size: 1.6rem;
                 font-weight: bold;
+                margin: 0 5px;
             }
             input[type="radio"]{
                 accent-color: #E94619;
@@ -75,6 +83,9 @@ main {
             .radio_wrap{
                 display: flex;
                 gap: 5px;
+                .blance{
+                    font-size: 1.4rem;
+                }
             }
             input[name="people"]{
                 border: #E94619 solid 1px;
@@ -87,7 +98,6 @@ main {
             .number_wrap{
                 display: flex;
                 align-items: end;
-                gap: 10px;
             }
             .keyword_cost{
                 display: flex;
@@ -96,12 +106,35 @@ main {
             }
             input[name="mincost"],
             input[name="maxcost"]{
-                width: 80px;
+                width: 60px;
                 height: 30px;
                 border: #E94619 solid 1px;
                 background-color: #fff;
                 border-radius: 5px;
                 text-align: right;
         }
+    }
+}
+
+.submit{
+    width: 200px;
+    height: 40px;
+    background-color: #E94619;
+    border-radius: 10px;
+    transition: 0.5s;
+    margin: 40px auto ;
+    a{
+        text-decoration: none;
+        display: flex;
+        width: 100%;
+        height: 100%;
+        color: #fff;
+        font-size: 1.6rem;
+        font-weight: bold;
+        justify-content: center;
+        align-items: center;
+    }
+    &:hover{
+        background-color: #B83C19;
     }
 }

@@ -1,0 +1,10 @@
+main{
+    margin-top: 100px;
+}
+.result_station{
+    width: 362px;
+    height: 40px;
+    border-radius: 10px;
+    background-color: #EEE;
+    margin: 0 20px;
+}

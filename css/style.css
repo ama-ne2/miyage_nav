@@ -70,7 +70,16 @@ footer{
         align-items: center;
         gap: 8px;
         margin-top: 11px;
-        &.active{
+        a{
+            color: #333;
+            text-decoration: none;
+        }
+    }
+    .active{
+        span {
+            color: #E94619;
+        }
+        p,a {
             color: #E94619;
         }
     }
