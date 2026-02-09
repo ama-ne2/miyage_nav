@@ -18,6 +18,7 @@ header{
     height: 100px;
     background-color: #E94619;
     position: fixed;
+    z-index: 10;
     top: 0;
     left: 0;
     .header_wrap{
@@ -48,6 +49,8 @@ header{
 }
 main{
     overflow: scroll;
+    position: relative;
+    z-index: 1;
     /* border: #000 solid 1px; */
 }
 footer{
@@ -60,6 +63,7 @@ footer{
     width: 100vw;
     height: 110px;
     border-top: #ADADAD solid 1px;
+    z-index: 10;
 
 /* footerのアイコンたち */
     .footer_icon{
