@@ -59,7 +59,7 @@ footer{
     justify-content: space-around;
     width: 100vw;
     height: 110px;
-    border-top: #000 solid 1px;
+    border-top: #ADADAD solid 1px;
 
 /* footerのアイコンたち */
     .footer_icon{
@@ -68,8 +68,12 @@ footer{
         align-items: center;
         gap: 8px;
         margin-top: 11px;
+        span{
+            color: #828282;
+
+        }
         a{
-            color: #333;
+            color: #828282;
             text-decoration: none;
         }
     }
