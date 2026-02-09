@@ -17,3 +17,56 @@ main{
         font-size: 1.6rem;
     }
 }
+
+.itiosi{
+    display: flex;
+    position: relative;
+    h2{
+        margin: 0 30px;
+        font-size: 1.6rem;
+    }
+    span{
+        position: absolute;
+        right: 40px;
+    }
+}
+.result_box{
+    /* border: solid 1px skyblue; */
+    margin: 0 20px;
+    .result_item_wrap{
+        /* border: solid 1px #000; */
+        display: flex;
+        flex-wrap: wrap;
+        gap: 40px;
+        justify-content: center;
+        
+        .result_item{
+            width: 150px;
+            padding: 10px;
+            /* border: solid 1px tomato; */
+            img{
+                width: 130px;
+                height: 130px;
+                object-fit: cover;
+            }
+            h3{
+                font-size: 1.4rem;
+            }
+            p{
+                font-size: 1.2rem;
+            }
+        }
+    }
+    .result_text{
+        p{
+            font-size: 1.6rem;
+            padding: 10px 20px;
+        }
+        .total{
+            border-top: #82828258 solid 1px;
+        }
+        .pick_up{
+            border-top: #82828258 dotted 1px;
+        }
+    }
+}

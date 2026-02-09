@@ -8,8 +8,6 @@ html , body{
     font-family: "Hiragino Kaku Gothic Pro" , sans-serif;
     display: flex;
     justify-content: center;
-    /* background-image: url("../img/miyage_nav_logo.png");
-    background-repeat: repeat; */
 }
 .main_content{
     width: 402px;
