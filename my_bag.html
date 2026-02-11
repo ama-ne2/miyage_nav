@@ -6,7 +6,7 @@
     <meta name="color-scheme" content="light dark">
     <meta name="format-detection" content="telephone=no">
     <meta name="description" content="ここに説明文を設定">
-    <title>result</title>
+    <title>index</title>
 
     <!-- 共有用 OGP / X(Twitter) -->
     <meta property="og:site_name" content="サイト名">
@@ -31,7 +31,7 @@
 
     <link rel="stylesheet" href="css/ress.css">
     <link rel="stylesheet" href="css/style.css">
-    <link rel="stylesheet" href="css/result.css">
+    <link rel="stylesheet" href="css/my_bag.css">
     <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
 
 </head>
@@ -39,7 +39,7 @@
 <div class="main_content">
     <header>
         <div class="header_wrap">
-            <h1  class="header_title">検索結果</h1>
+            <h1  class="header_title">マイ袋</h1>
             <div class="header_icon_wrap">
             <span class="material-icons qr_mark">
                     qr_code_scanner
@@ -49,82 +49,64 @@
         </div>
     </header>
     <main>
-        <div class="result_station">
-        <span class="material-icons">
-        search
-        </span>
-            <input type="text" placeholder="駅名" >
-        </div>
-        <div class="itiosi">
-            <h2>イチオシ袋</h2>
+        <div class="edit_name_wrap">
+            <h2>駅名 イチオシ袋</h2>
             <span class="material-icons">
-            favorite
+                edit
             </span>
         </div>
-        <div class="result_box">
-            <div class="result_item_wrap">
-                <div class="result_item">
-                    <picture><img src="img/ecc_cookie_12.png" alt=""></picture>
-                    <div class="item_text">
-                        <h3>ECCクッキー</h3>
-                        <p>12個入り</p>
-                        <p>1000円</p>
-                    </div>
-                </div>
-                <div class="result_item">
-                    <picture><img src="img/ecc_choco.png" alt=""></picture>
-                    <div class="item_text">
-                        <h3>ECCチョコ</h3>
-                        <p>9個入り</p>
-                        <p>1000円</p>
-                    </div>
+        <div class="my_bag_wrap">
+            <div class="log_wrap">
+                <time datetime="2026-02-13">2026-02-13</time>
+                <div class="keyword_log_wrap">
+                    <p>駅名</p>
+                    <p>家族</p>
+                    <p>0人</p>
+                    <p>2000円</p>
+                    <p>甘い</p>
                 </div>
             </div>
-            <div class="result_text">
-                <p class="total">計 2000 円</p>
-                <p class="pick_up">ECC駅 受け取り所 中央口</p>
+            <h3>改札前ECC土産</h3>
+            <div class="my_bag_object_wrap">
+            <p class="bag_icon"><img src="img/bag_icon.png" alt=""></p>
+            <p>合計<br>2000円</p>
+            <p><a href="order2.html">ご注文に進む</a></p>
             </div>
-            <div class="edit_btn_wrap">
-                <button type="button">削除</button>
-                <button type="button">追加</button>
-            </div>
-            <div class="result_btn_wrap">
-                <button type="button">マイ袋に入れる</button>
-                <p><a href="/index.html">検索に戻る</a></p>
-            </div>
+            <span class="material-icons delete">
+                delete
+            </span>
         </div>
-
     </main>
     <footer>
-        <div class="footer_icon">
+        <div class="footer_icon active">
             <span class="material-icons">
             home
             </span>
-            <p><a href="index.html">ホーム</a></p>
+            <p>ホーム</p>
         </div>
-        <div class="footer_icon active">
+        <div class="footer_icon">
             <span class="material-icons">
             history
             </span>
-            <p><a href="result.html">検索履歴</a></p>
+            <p>検索履歴</p>
         </div>
         <div class="footer_icon">
         <span class="material-icons">
         shopping_bag
         </span>
-            <p><a href="my_bag.html">マイ袋</a></p>
+            <p>マイ袋</p>
         </div>
         <div class="footer_icon">
             <span class="material-icons">
             favorite
             </span>
-            <p><a href="">お気に入り</a></p>
+            <p>お気に入り</p>
         </div>
         <div class="footer_icon">
             <span class="material-icons">
             announcement
             </span>
-            <p><a href="">お知らせ</a></p>
+            <p>お知らせ</p>
         </div>
     </footer>
 </div>

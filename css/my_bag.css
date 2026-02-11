@@ -1,0 +1,48 @@
+main{
+    margin-top: 120px;
+}
+
+.edit_name_wrap{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    margin-left: 30px;
+    h2{
+        font-size: 1.6rem;
+    }
+    span{
+        font-size: 2rem;
+        transition: 0.5s;
+        &:hover{
+            color: #666;
+        }
+    }
+}
+.my_bag_wrap{
+    border: #82828258 solid 1px;
+    margin: 20px;
+    padding: 20px;
+    position: relative;
+    .delete{
+        position: absolute;
+        top: 10px;
+        right: 20px;
+        font-size: 3rem;
+    }
+    .log_wrap{
+        display: flex;
+        gap: 20px;
+        font-size: 1rem;
+        .keyword_log_wrap{
+            display: flex;
+            gap: 10px;
+        }
+    }
+    h3{
+        font-size: 1.6rem;
+        margin: 10px 0;
+    }
+    .bag_icon img{
+        width: 60px;
+    }
+}

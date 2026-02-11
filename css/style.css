@@ -11,6 +11,9 @@ html , body{
 }
 .main_content{
     width: 402px;
+    span{
+        cursor: pointer;    
+    }
 }
 
 header{
