@@ -1,6 +1,0 @@
-input[type="radio"]{
-    background-color: tomato;
-}
-input[type="radio"]:checked + label{
-    color: tomato;
-}
