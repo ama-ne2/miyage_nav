@@ -138,3 +138,13 @@ main {
         background-color: #B83C19;
     }
 }
+
+@media screeen and (max-width:765px){
+    .keyword_wrap{
+        .keyword{
+            input[type="radio"] + label{
+                margin-right: 8px;
+            }
+        }
+    }
+}
