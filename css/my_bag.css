@@ -38,11 +38,80 @@ main{
             gap: 10px;
         }
     }
-    h3{
-        font-size: 1.6rem;
-        margin: 10px 0;
+    .my_bag_text{
+        display: flex;
+        gap: 20px;
+        h3{
+            font-size: 1.6rem;
+            margin: 10px 0;
+        }
     }
-    .bag_icon img{
-        width: 60px;
+    .my_bag_object_wrap{
+        display: flex;
+        justify-content: space-between;
+        align-items: end;
+        .my_bag_icon_wrap{
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            gap: 10px;
+            .bag_icon img{
+                width: 60px;
+            }
+            .tap{
+                font-size: 1rem;
+                color: #666;
+                animation: 2s tennmetu infinite;
+            }
+        }
+        .my_bag_btn_wrap{
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            gap: 12px;
+            .situation_btn{
+                border: #B9B8B8 solid 1px;
+                width: 100px;
+                height: 30px;
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                border-radius: 20px;
+                font-size: 1.2rem;
+            }
+            .order_btn{
+                width: 120px;
+                height: 40px;
+                background-color: #E94619;
+                border-radius: 10px;
+                transition: 0.5s;
+                &:hover{
+                    background-color: #B83C19;
+                }
+                a{
+                    text-decoration: none;
+                    color: #fff;
+                    font-size: 1.6rem;
+                    font-weight: bold;
+                    width: 100%;
+                    height: 100%;
+                    display: flex;
+                    justify-content: center;
+                    align-items: center;
+                }
+            }
+        }
+    }
+}
+
+@keyframes tennmetu{
+    0%{
+        opacity: 0.5;
+    }
+    50%{
+        opacity: 1;
+    }
+    100%{
+        opacity: 0.5;
     }
 }
