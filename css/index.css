@@ -74,7 +74,7 @@ main {
                 align-items: center;
                 border-radius: 10px;
                 font-size: 1.6rem;
-                margin-right: 20px;
+                margin-right: 10px;
                 font-weight: bold;
                 &:last-child{
                     margin-right: 0;
@@ -144,6 +144,7 @@ main {
         .keyword{
             input[type="radio"] + label{
                 margin-right: 8px;
+                font-size: 1.4rem;
             }
         }
     }
