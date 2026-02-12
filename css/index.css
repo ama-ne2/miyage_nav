@@ -139,7 +139,7 @@ main {
     }
 }
 
-@media screeen and (max-width:765px){
+@media screen and(max-width:765px){
     .keyword_wrap{
         .keyword{
             input[type="radio"] + label{
