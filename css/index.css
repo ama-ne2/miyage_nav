@@ -82,6 +82,7 @@ main {
             }
             .radio_wrap{
                 display: flex;
+                align-items: center;
                 gap: 5px;
                 .blance{
                     font-size: 1.4rem;
@@ -136,16 +137,5 @@ main {
     }
     &:hover{
         background-color: #B83C19;
-    }
-}
-
-@media screen and(max-width:765px){
-    .keyword_wrap{
-        .keyword{
-            input[type="radio"] + label{
-                margin-right: 8px;
-                font-size: 1.4rem;
-            }
-        }
     }
 }

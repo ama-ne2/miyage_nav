@@ -6,3 +6,42 @@ h2{
     display: flex;
     justify-content: center;
 }
+
+.object_wrap{
+    margin: 30px auto;
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    .ticket_wrap{
+        /* display: flex;
+        flex-direction: column;
+        justify-content: center; */
+        padding: 10px;
+        border:  1px solid #B9B8B8;
+        h3{
+            font-size: 1.4rem;
+        }
+    }
+    .btn_wrap{
+        display: flex;
+        flex-direction: column;
+        gap: 10px;
+        button{
+            width: 100px;
+            height: 40px;
+            color: #fff;
+            font-size: 1.2rem;
+            border-radius: 10px;
+        }
+        .map_btn{
+            background-color: #E94619;
+        }
+        .qr_btn{
+            background: #00C3FF;
+        }
+    }
+    .bag_img{
+        background-image: url("../img/bag_icon.png");
+        border: #E94619 1px solid;
+    }
+}
