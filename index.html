@@ -70,10 +70,17 @@
             </div>
             <div class="keyword">
                 <h2>味</h2>
-                <div class="radio_wrap">
-                        <input type="radio" name="taste" value="甘い" id="sweet"> <label for="sweet">甘い</label>
-                        <input type="radio" name="taste" value="塩気" id="salt"> <label for="salt">塩気</label>
-                        <input type="radio" name="taste" value="バランス" id="balance"><label for="balance" class="blance">バランス</label>
+                <div class="select_wrap">
+                    <select name="taste">
+                        <option value="" selected>すべて</option>
+                        <option value="sweet">甘い</option>
+                        <option value="salt">しょっぱい</option>
+                        <option value="spice">辛い</option>
+                        <option value="thin">薄味</option>
+                    </select>
+                    <span class="material-icons select_icon">
+                        keyboard_arrow_down
+                    </span>
                 </div>
             </div>
         </div>

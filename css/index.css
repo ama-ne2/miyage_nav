@@ -114,6 +114,28 @@ main {
                 border-radius: 5px;
                 text-align: right;
         }
+        .select_wrap{
+            position: relative;
+            width: 180px;
+            select{
+                border: #E94619 1px solid;
+                width: 100%;
+                height: 40px;
+                padding: 0 35px 0 10px;
+                border-radius: 10px;
+                font-size: 1.6rem;
+                background-color: #fff;
+            }
+            .select_icon{
+                position: absolute;
+                right: 8px;
+                top: 50%;
+                transform: translateY(-50%);
+                font-size: 24px;
+                color: #333;
+                pointer-events: none;
+            }
+        }
     }
 }
 
