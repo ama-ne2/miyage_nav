@@ -133,3 +133,18 @@ main{
         }
     }
 }
+
+.flying-bag{
+    position: fixed;
+    z-index: 100;
+    width: 70px; 
+    height: auto;
+    pointer-events: none;
+    transition: all 0.8s cubic-bezier(0.42, 0, 0.58, 1); 
+}
+
+
+.flying-bag.is-flying {
+    transform: scale(0.1);
+    opacity: 0.8;
+}
