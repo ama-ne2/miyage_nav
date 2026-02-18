@@ -29,15 +29,13 @@ main{
     }
     span{
         position: absolute;
-        right: 40px;
+        right: 30px;
         color: #828282;
     }
 }
 .result_box{
-    /* border: solid 1px skyblue; */
     margin: 0 20px;
     .result_item_wrap{
-        /* border: solid 1px #000; */
         display: flex;
         flex-wrap: wrap;
         gap: 40px;
@@ -46,17 +44,22 @@ main{
         .result_item{
             width: 150px;
             padding: 10px;
-            /* border: solid 1px tomato; */
             img{
-                width: 130px;
-                height: 130px;
+                width: 150px;
+                height: 150px;
                 object-fit: cover;
             }
-            h3{
-                font-size: 1.4rem;
-            }
-            p{
-                font-size: 1.2rem;
+            .item_text{
+                h3{
+                    font-size: 1.4rem;
+                }
+                p{
+                    font-size: 1.2rem;
+                }
+                .detail_text{
+                    display: flex;
+                    justify-content: space-between;
+                }
             }
         }
     }
