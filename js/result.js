@@ -1,4 +1,14 @@
+
 document.addEventListener('DOMContentLoaded', () => {
+    //ローディング
+    const overlay = document.querySelector(".loading_overlay");
+    window.addEventListener("load" , ()=>{
+        setTimeout(()=>{
+            overlay.classList.add("loaded");
+        }, 2500);
+    });
+
+    //カートアニメーション
     const addBtnWrap = document.querySelector('.result_btn_wrap button'); 
     const targetIcon = document.querySelectorAll('.footer_icon')[2];
 
