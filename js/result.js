@@ -32,7 +32,7 @@ document.addEventListener('DOMContentLoaded', () => {
         // ゴール
         const targetRect = targetIcon.getBoundingClientRect();
         const destX = targetRect.left + (targetRect.width / 2) - 30;
-        const destY = targetRect.top + (targetRect.height / 2) - 90;
+        const destY = targetRect.top + (targetRect.height / 2) - 80;
 
         requestAnimationFrame(() => {
             requestAnimationFrame(() => {

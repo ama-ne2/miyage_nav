@@ -205,7 +205,8 @@ main{
 .loading_bag_wrap{
     width: 100px;
     margin-top: 50px;
-    animation: bag_pop 1s infinite ease-out;
+    animation: bag_pop 0.9s 3 ease-out forwards;
+    animation-delay: 0.9s;
     img{
         width: 100%;
         height: auto;
@@ -213,12 +214,12 @@ main{
 }
 
 .box_left{
-    animation: fly_in_left 1.5s 3 ease-in;
+    animation: fly_in_left 1.8s 2 ease-in forwards;
     
 }
 .box_right{
-    animation: fly_in_right 1.5s 3 ease-in;
-    animation-delay: 1s;
+    animation: fly_in_right 1.8s 1 ease-in forwards;
+    animation-delay: 0.9s;
 }
 
 
@@ -259,14 +260,11 @@ main{
 }
 
 @keyframes bag_pop{
-    0%,80%{
+    0%,15%,100%{
         transform: scale(1);
     }
-    90%{
-        transform: scale(1.1 , 0.9);
-    }
-    100%{
-        transform: scale(1);
+    50%{
+        transform: scale(1 , 0.9);
     }
 }
 
