@@ -23,7 +23,7 @@ document.addEventListener('DOMContentLoaded', () => {
 
         // スタート
         const btnRect = addBtnWrap.getBoundingClientRect();
-        const startX = btnRect.left + (btnRect.width / 2) - 30;
+        const startX = btnRect.left + (btnRect.width / 2) - 35;
         const startY = btnRect.top + (btnRect.height / 2) - 30;
 
         flyer.style.left = `${startX}px`;
@@ -31,7 +31,7 @@ document.addEventListener('DOMContentLoaded', () => {
 
         // ゴール
         const targetRect = targetIcon.getBoundingClientRect();
-        const destX = targetRect.left + (targetRect.width / 2) - 30;
+        const destX = targetRect.left + (targetRect.width / 2) - 35;
         const destY = targetRect.top + (targetRect.height / 2) - 80;
 
         requestAnimationFrame(() => {
